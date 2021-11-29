@@ -95,7 +95,7 @@ interface NftGalleryProps {
    * An array of IDs for assets that should be displayed when `showcaseMode` is active.
    * Each ID is formed by combining the asset's contract address and the asset's own tokenId: `{:assetContractAddress}/{:tokenId}`
    *
-   * For example:
+   * For example
    *
    * ```jsx
    * showcaseItemIds={["0xabcdef.../123", "0xa1b2c3.../789"]}
